@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px -20px;
 }
 
 nav {
@@ -491,6 +492,10 @@ footer {
 
 @media all and (max-width: 1024px) { /*Tablettes*/
 
+    header {
+        margin: 0px;
+    }
+
     /*----Search----*/
 
     section h1 {
@@ -658,7 +663,7 @@ footer {
         flex-basis: 50%;
         text-align: center;
         justify-content: center;
-        border-bottom: 5px solid transparent;
+        border-bottom: 3px solid transparent;
     }
 
     .Menu a:hover {
