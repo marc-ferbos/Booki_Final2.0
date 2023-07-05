@@ -198,7 +198,7 @@ li i {
     justify-content: center;
     align-items: center;
     border: 1px solid #d9d9d9;
-    padding: 6px 0px;
+    padding: 9px 1px;
     border-radius: 50%;
     color: #0065FC;
     width: 40px;
@@ -225,11 +225,6 @@ li i {
 .all-articles h2 {
     padding-left: 20px;
 }
-
-/*.all-articles p {
-    padding-left: 20px;
-    margin-top: 10px;
-}*/
 
 .etoiles {
     display: flex;
@@ -337,6 +332,10 @@ figure i {
     margin-left: 20px;
 }
 
+.popularcap h3 {
+    font-size: 15.5px
+}
+
 .Popular h2 {
     display: flex;
     justify-content: space-between;
@@ -413,10 +412,6 @@ figure i {
 
 .Activités {
     margin-top: 60px;
-}
-
-.Activités h2 {
-    padding-left: 30px;
 }
 
 .activitypart {
@@ -861,6 +856,10 @@ footer {
         margin-left: 10px;
     }
 
+    figcaption {
+        padding: 10px 0px 10px 0px;
+    }
+
     .hebergfig i {
         margin-left: 0px;
     }
@@ -974,7 +973,11 @@ footer {
     }
 
     .activitycap {
+        align-items: center;
         width: 100%;
+        margin-bottom: 10px;
+        height: auto;
+        padding: 30px 0px 30px 0px;
     }
 
     .activitycap h3 {
