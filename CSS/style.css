@@ -435,7 +435,7 @@ figure i {
 
 .activitycap {
     display: flex;
-    padding-top: 6px;
+    /*padding-top: 6px;*/
 }
 
 .activitycap h3 {
