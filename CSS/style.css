@@ -670,7 +670,7 @@ footer {
     }
 
     section p {
-        margin: -20px 0px 20px 0px;
+        margin: -15px 0px 20px 0px;
         padding: 0px;
         font-size: min(35px, 5vw);
     }
@@ -787,7 +787,7 @@ footer {
     }
 
     #icon-info {
-        margin-top: 5px;
+        margin-top: 8%;
     }
 
     .fa-solid.fa-info {
@@ -880,7 +880,7 @@ footer {
     .Popular {
         display: flex;
         flex-direction: column;
-        margin: 0px -20px 0px -38px;
+        margin: 0px -20px 0px -40px;
         border-radius: 0px;
     }
 
@@ -923,7 +923,7 @@ footer {
 
     .popularcap p {
         font-size: min(30px, 5vw);
-        padding: 4% 13px 14px 13px;
+        padding: 4% 13px 4px 13px;;
     }
     
     .etoiles2 {
@@ -937,7 +937,7 @@ footer {
 
     .fa-star, .whitestar {
         font-size: 3vw;
-        margin-left: -5px;
+        margin-left: -3px;
         font-size: 18px;
     }
 
@@ -949,7 +949,7 @@ footer {
 
     .Activités {
         padding: 0px 10px 0px 10px;
-        margin: 0px 8px 0px 8px;
+        margin: 0px 12px 0px 8px;
     }    
 
     .Activités h2 {
