@@ -69,10 +69,6 @@ section p {
 }
 
                         /* Barre de recherche */
-/*form {
-    display: inline-block;
-    width: 100%;
-}*/
 
 form {
     display: flex;
@@ -223,7 +219,9 @@ li i {
 }
 
 .all-articles h2 {
-    padding-left: 20px;
+    width: 100%;
+    padding: 0px;
+    margin: 22px 0px 30px 0px;
 }
 
 .etoiles {
@@ -265,7 +263,9 @@ a {
     border: 5px solid white;
     border-radius: 22px;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
-    margin: 15px;
+    margin-bottom: 30px;
+    width: 31%;
+    padding-bottom: 5px;
 }
 
 .Card-hebergements p {
@@ -330,6 +330,7 @@ figure i {
     background-color: #f2f2f2;
     border-radius: 20px 20px 20px 20px;
     margin-left: 20px;
+    padding: 0px 15px 20px 15px;
 }
 
 .popularcap h3 {
@@ -339,13 +340,13 @@ figure i {
 .Popular h2 {
     display: flex;
     justify-content: space-between;
-    padding: 0px 0px 0px 45px;
-    margin-left: -15px;
+    width: 100%;
+    padding: 0px;
+    margin: 22px 0px 30px 0px;
 }
 
 .fa-solid.fa-chart-line {
     color: #0065FC;
-    padding-right: 32px;
 }
 
 .Popularpart {
@@ -358,7 +359,7 @@ figure i {
     background-color: white;
     border: 5px solid white;
     min-height: 140px;
-    margin: 0 20px 20px 20px;
+    margin: 0 0px 20px 0px;
     min-width: 200px;
 }
 
@@ -527,13 +528,9 @@ footer {
     /*-----Popular-----*/
 
     .Popular {
-        margin: 50px -15px 0px -15px;
+        margin: 50px 0px 0px 0px;
         padding: 10px 30px 30px 30px;
         width: auto;
-    }
-
-    .Popular h2 {
-        padding-left: 20px;
     }
 
     .fa-solid.fa-chart-line {
@@ -547,11 +544,8 @@ footer {
     }
 
     .Card-popular {
-        margin: 0 20px;
-        max-width: 252px;
-        min-width: 170px ;
-        margin-left: 0px;
-        /*width: 230px*/;
+        margin: 0px;
+        width: 31%;
     }
     
     .popularfig img {
@@ -605,21 +599,9 @@ footer {
 /*----------------------------------------------------------------------------------*/
 @media all and (max-width: 767px) { /*Mobile*/
 
-    /*body {  
-        padding: 20px 0px 20px 0px;
-    }*/
-
     body {
         padding: 0px;
     }
-
-    main {
-        padding: 0px 0px 0px 20px;
-    }
-
-    /*section {
-        padding: 0px 20px 0px 20px;
-    }*/
 
     .hebergpopular {
         padding: 0px 20px 0px 20px;
@@ -663,6 +645,10 @@ footer {
         font-weight: 500;
     }
 
+    .Introduction {
+        padding: 0px 20px;
+    }
+
     /* BARRE DE RECHERCHE Mobile */
 
     section h1 {
@@ -697,7 +683,7 @@ footer {
 
     form {
         margin: 14% 0px 14% 0px;
-        justify-content: center;
+        width: 100%;
     }
 
     form button {
@@ -707,7 +693,7 @@ footer {
 
     .button-search {
         height: 100px;
-        width: 90%;
+        width: 100%;
         border-radius: 30px;
         
     }
@@ -734,9 +720,11 @@ footer {
         list-style: none;
         text-decoration: none;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
-        margin: 0px 0px 0px -40px;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
     }
 
     .fa-money-bill-wave {
@@ -760,9 +748,9 @@ footer {
     }
 
     li.btn-filter {
-        margin: 10px 0px 20px 15px;
+        margin: 10px 0px;
         padding: 20px 0px 20px 4%;
-        width: 42%;
+        width: 48%;
         border: 3px solid #D9D9D9;
         font-size: min(26px, 4vw);
         display: flex;
@@ -801,8 +789,7 @@ footer {
 
 
     .all-articles {
-        padding: 0px;
-        margin: 0px -20px 0px -20px;
+        padding: 0px 20px;
         border-radius: 0px;
         background-color: white;
     }
@@ -819,7 +806,7 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         margin: 0px;
-        padding: 0px 20px 0px 20px;
+        padding: 0px;
         margin-top: 50px;
     }
 
@@ -827,7 +814,6 @@ footer {
         display: flex;
         flex-direction: column;
         background-color: white;
-        margin-left: -20px;
     }
 
     .Card-hebergements {
@@ -837,7 +823,7 @@ footer {
         width: auto;
         height: auto;
         border: 8px solid white;
-        margin: 15px 20px;
+        margin: 0px 0px 20px 0px;
     }
 
     .hebergfig img {
@@ -880,29 +866,24 @@ footer {
     .Popular {
         display: flex;
         flex-direction: column;
-        margin: 0px -20px 0px -40px;
         border-radius: 0px;
+        margin: 0px;
+        padding: 10px 20px;
     }
 
     .Popular h2 {
         font-size: min(47px, 6vw);
     }
 
-    .fa-solid.fa-chart-line {
-        margin-right: -10px;
-    }
-
-
     .Popularpart {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0px -30px;
     }
 
     .Card-popular {
-        max-width: 100%;
-        margin: 15px 5% 15px 5%;
+        width: 100%;
+        margin: 0px;
         border: 8px solid white;
     }
 
