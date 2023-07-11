@@ -504,7 +504,6 @@ footer {
     /*------Hébergements-----*/
 
     .all-articles h2 {
-        /* font-size: 22px; */
         padding-left: 0px;
     }
     
@@ -514,7 +513,6 @@ footer {
 
     .Card-hebergements {
         width: 246px;
-        /*height: 199px;*/
     }
 
     .hebergfig img {
@@ -763,7 +761,6 @@ footer {
     }
 
     .filtres h2 {
-        /*margin: 30px 0px;*/
         margin: 0% 0% 5% 0%;
         font-size: min(40px, 5vw);
     }
@@ -796,11 +793,8 @@ footer {
 
     .all-articles h2 {
         font-size: min(47px, 5vw);
+        margin: 60px 0px 30px 0px;
     }
-
-    /*.all-articles .afficher {
-        display: none;
-    }*/
     
     .hebergpopular {
         display: flex;
@@ -860,6 +854,10 @@ footer {
         min-width: 18px;
         width: 5%;
     }
+    
+    .afficher {
+        margin: 15px 0px 80px 0px;
+    }
 
     /*-----Partie Popular-----*/
     
@@ -883,7 +881,7 @@ footer {
 
     .Card-popular {
         width: 100%;
-        margin: 0px;
+        margin: 0px 0px 25px 0px;
         border: 8px solid white;
     }
 
@@ -929,8 +927,8 @@ footer {
 /*-------- Activitypart ---------*/
 
     .Activités {
-        padding: 0px 10px 0px 10px;
-        margin: 0px 12px 0px 8px;
+        padding: 0px 40px;
+        margin: 0px 0px;
     }    
 
     .Activités h2 {
@@ -949,7 +947,7 @@ footer {
     .Card-activity {
         border-radius: 20px;
         background-color: white;
-        width: 97%;
+        width: 100%;
         margin-top: 20px;
     }
 
@@ -980,13 +978,13 @@ footer {
     footer {
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin-top: 100px;
         background-color: #f2f2f2;
-        padding: 25px;
+        padding: 0px 40px;
     }
 
-    footer h3 {
-        font-size: min(40px, 5vw);
+    footer h4 {
+        font-size: min(35px, 5vw);
     }
 
     footer a {
