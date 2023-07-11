@@ -119,7 +119,6 @@ form button {
     font-weight: bold;
     font-size: 16px;
     margin-left: -5px;
-    /*height: 100%;*/
 }
 
 .button-search {
@@ -687,6 +686,7 @@ footer {
     form button {
         border-radius: 30%;
         width: 18%;
+        margin-left: -25px;
     }
 
     .button-search {
@@ -818,6 +818,30 @@ footer {
         height: auto;
         border: 8px solid white;
         margin: 0px 0px 20px 0px;
+    }
+
+    .Card-hebergements:nth-child(1) {
+        order: ; /* 1er élément */
+    }
+      
+    .Card-hebergements:nth-child(2) {
+        order: ; /* 2ème élément */
+    }
+      
+    .Card-hebergements:nth-child(3) {
+        order: ; /* 3ème élément */
+    }
+      
+    .Card-hebergements:nth-child(4) {
+        order: ; /* 4ème élément */
+    }
+      
+    .Card-hebergements:nth-child(5) {
+        order: ; /* 5ème élément */
+    }
+      
+    .Card-hebergements:nth-child(6) {
+        order: ; /* 6ème élément */
     }
 
     .hebergfig img {
